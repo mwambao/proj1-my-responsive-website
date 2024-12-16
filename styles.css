@@ -1,4 +1,4 @@
-/* CSS BOX model mneunics:  “Mothers bake perfect cookies” – Margin, Border, Padding, Content.*/
+/* CSS BOX model mneunics:  “Mothers Bake Perfect Cookies” – Margin, Border, Padding, Content.*/
 
 
 /* General reset to ensure consistency across different browsers. */
@@ -8,3 +8,25 @@
     box-sizing: border-box; /* Include padding and border in the element's width and height */
 }
 
+/*body styling*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header section styling*/
+header {
+    background: #333; /* Set the background color of the header to a dark gray */
+    color: #fff; /* Set the text color of the header to white for better contrast */
+    padding: 10px 0; /* Add vertical and horizontal padding to create spacing within the header */
+}
+
+
+/* Navigation menu styling*/
+nav ul {
+    list-style: none; /* remove default styling (bullets) */
+    display: flex; /* arrange items in a flexible horizontal row*/
+    justify-content: center; /* center the items horizontally withing the navigation bar*/
+    gap: 15px; /* add space between list items*/
+
+}
