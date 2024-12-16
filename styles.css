@@ -1,0 +1,10 @@
+/* CSS BOX model mneunics:  “Mothers bake perfect cookies” – Margin, Border, Padding, Content.*/
+
+
+/* General reset to ensure consistency across different browsers. */
+* {
+    margin: 0; /* Reset all margins */
+    padding: 0; /* Reset all padding */
+    box-sizing: border-box; /* Include padding and border in the element's width and height */
+}
+

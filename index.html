@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Responsive Website</title>
+    <!-- link to CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation bar with links -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#home">About</a></li>
+                <li><a href="#home">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section id="home">
+        <h1>Home</h1>
+        <p>This is a simple, responsive website.</p>
+    </section>
+
+    <!-- About section -->
+     <section id="about">
+        <h2>About us</h2>
+        <p>We are passinate about web development.</p>
+     </section>
+
+    <!-- Contact section with a form -->
+     <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <!--input for name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+             <!--input for email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+             <!--input for message -->
+             <label for="message">Message:</label>
+             <textarea type="message" name="message" required></textarea> 
+
+             <!--submit button-->
+             <button type="submit">Submit</button>
+        </form>
+    
+     </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My responsive website</p>
+    </footer>
+
+    <!--link to Javascript file -->
+    <script src="script.js"></script>
+</body>
+</html>
