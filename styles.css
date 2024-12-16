@@ -30,3 +30,14 @@ nav ul {
     gap: 15px; /* add space between list items*/
 
 }
+
+nav ul li a {
+    color: #fff; /* sets text color of navigation to white*/
+    text-decoration: none; /* removes the underlinng fron navigation links*/
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    text-align: center;
+}
