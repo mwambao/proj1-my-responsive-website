@@ -41,3 +41,11 @@ section {
     padding: 20px;
     text-align: center;
 }
+
+form {
+    display: flex; /* arrange items in a flexible horizantal row */
+    flex-direction: column; 
+    gap: 10px; /* space between elements */
+    max-width: 400px;
+    margin: 0 auto; /* center the form on the page*/
+}
