@@ -42,10 +42,44 @@ section {
     text-align: center;
 }
 
+/* form styling */
 form {
     display: flex; /* arrange items in a flexible horizantal row */
     flex-direction: column; 
     gap: 10px; /* space between elements */
     max-width: 400px;
     margin: 0 auto; /* center the form on the page*/
+}
+
+/* button styling */
+button {
+    padding: 0px; 
+    background: #333; 
+    color: #fff; 
+    border: none; /* Removes the default border for a cleaner look.*/ 
+    cursor: pointer; /* Changes the cursor to a pointer to indicate the button is clickable. */
+}
+
+/* footer styling */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+
+/* Flexbox for sections */
+
+#about, #contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
 }
